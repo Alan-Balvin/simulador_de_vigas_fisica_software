@@ -85,7 +85,13 @@ export default function App() {
   const [showValidation,setShowValidation] = useState(false);
   const reset = () => {setL(4);setB(.2);setH(.4);setRho(2400);setE(25);setMass(500);};
   return <main className="app-shell">
-    <header className="topbar"><div className="brand-mark">V</div><div><div className="eyebrow">FÍSICA PARA EL DESARROLLO DE SOFTWARE</div><h1>Simulador de vigas</h1></div><span className="version">MODELO 1D · ELÁSTICO</span></header>
+    <header className="topbar"><div className="brand-mark">V</div><div><div className="eyebrow">FÍSICA PARA EL DESARROLLO DE SOFTWARE</div><h1>Simulador de vigas</h1>
+    <h2>¿Cómo afectan las cargas a una viga?</h2>
+    <h1>PROYECTO INTEGRADOR FINAL </h1>
+    <h2>Alumnos:</h2>
+    <h3>Cancino Ramos Pablo Eduardo</h3>
+    <h3>Beltran Mariscal Santos Steven</h3>
+     </div><span className="version">MODELO 1D · ELÁSTICO</span></header>
     <section className="intro"><div><span className="kicker">LABORATORIO INTERACTIVO</span><h2>¿Cómo afectan las cargas a una viga?</h2><p>Modifica la geometría, el material y la carga externa. Observa cómo cambian las reacciones, el momento flector y la deformación estimada.</p></div><div className="intro-stat"><span>Gravedad</span><strong>9.81 <small>m/s²</small></strong></div></section>
     <div className="layout">
       <aside className="controls panel">
