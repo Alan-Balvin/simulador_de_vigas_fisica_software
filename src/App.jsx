@@ -91,6 +91,7 @@ export default function App() {
     <h2>Alumnos:</h2>
     <h3>Cancino Ramos Pablo Eduardo</h3>
     <h3>Beltran Mariscal Santos Steven</h3>
+    <h3>Pérez Angulo Daniel Alberto</h3>
      </div><span className="version">MODELO 1D · ELÁSTICO</span></header>
     <section className="intro"><div><span className="kicker">LABORATORIO INTERACTIVO</span><h2>¿Cómo afectan las cargas a una viga?</h2><p>Modifica la geometría, el material y la carga externa. Observa cómo cambian las reacciones, el momento flector y la deformación estimada.</p></div><div className="intro-stat"><span>Gravedad</span><strong>9.81 <small>m/s²</small></strong></div></section>
     <div className="layout">
